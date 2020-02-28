@@ -71,6 +71,7 @@ do_action( 'astral_breadcrumb_area' );
                         $query2->the_post();
                         echo '<h2>' . get_the_title( $query2->post->ID ) . '</h2>';
                         echo '<p>' . substr(get_the_excerpt(),0,200) . '</p>';
+                        the_post_thumbnail( 'thumbnail' ); 
                     }
                     
                     // Restore original Post Data
