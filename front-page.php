@@ -62,7 +62,7 @@ do_action( 'astral_breadcrumb_area' );
                     /* The 2nd Query (without global var) */
                     $args2 = array(
                         "category_name" => "evenement",
-                        "posts_per_page" => 10
+                        "posts_per_page" => 5
                     );
                     $query2 = new WP_Query( $args2 );
                     
